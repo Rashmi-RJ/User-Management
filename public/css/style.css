@@ -1,0 +1,94 @@
+#header{
+    background: linear-gradient(to right,rgb(129, 115, 121),rgb(153, 128, 139));
+}
+#header img{
+    width: 80px;
+    height: 80px;
+}
+
+#header .bi-list{
+    color: white;
+}
+#header .navbar-toggler{
+    border: 1px solid white;
+    box-shadow: none;
+}
+#header ul li a{
+    color: black;
+    transition-property: color;
+    transition-duration: 2s;
+}
+#header ul li a:hover{
+    color: white;
+}
+
+#about{
+    background: linear-gradient(to right,rgb(129, 115, 121),rgb(153, 128, 139));
+
+}
+
+
+#about h4{
+    font-family: 'Rubik Dirt', cursive;
+    color: rgb(12, 13, 14);
+}
+#about p{
+    font-family: 'Rubik Maze', cursive;
+    color: aliceblue;
+}
+
+#about #aboutimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#about img{
+    width: 100%;
+}
+
+
+#banner img.img-fluid{
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+}
+
+#banner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#banner h4{
+font-family: 'Roboto Slab', serif;
+color: rgb(0,51,102);
+}
+#banner p{
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+#testi img{
+    width: 200px;
+    height: 200px; 
+    border-top-left-radius: 50%;
+    margin-bottom: 10px;
+    transition-property: width height;
+    transition-duration: 2s;
+}
+#testi img:hover{
+    width: 250px;
+    height: 250px;
+}
+#footer{
+    background: linear-gradient(to right,rgb(129, 115, 121),rgb(153, 128, 139));
+
+}
+#footer img{
+    width: 100%;
+}
+#footer #logoimg{
+    width: 80px;
+    height: 80px;
+}
+

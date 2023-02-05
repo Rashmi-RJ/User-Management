@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/admin/css/style.css">
+</head>
+<body>
+   <%- include('../../partials/admin/header.ejs')%>
+
+    <section id="mid">
+        <div class="container">
+            <div class="row">
+   <%- include('../../partials/admin/left.ejs')%>
+                
+
+
+                <div class="col-md-8">
+                    <h2>Banner Update</h2>
+                    <form action="/admin/bannerform/<%=bannerRecord.id%>" method="post" enctype="multipart/form-data">
+                        <label for="">Banner title</label>
+                         <input type="text" name="bt" id="" class="form-control" value="<%=bannerRecord.title%>">
+                         <label for="">Banner Description</label>
+                         <textarea name="bd" class="form-control""><%=bannerRecord.desc%></textarea>
+                         <label for="">Banner long Description</label>
+                         <textarea name="bl" class="form-control""><%=bannerRecord.longdesc%></textarea>
+                         <label for="">Banner Image</label>
+                         <div><img style="width:100px ;" src=/upload/<%=bannerRecord.bannerImage%> alt=""></div>
+                         <input type="file" name="img" id="" class="form-control">
+                         <button type="submit" class="btn btn-success form-control mt-2 mb-2">Banner Update</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <%- include('../../partials/admin/footer.ejs')%>
+
+   
+</body>
+</html>

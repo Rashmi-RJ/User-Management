@@ -1,0 +1,3 @@
+font-family: 'Roboto Slab', serif;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Rubik Maze', cursive;

@@ -1,0 +1,28 @@
+#header{
+    padding: 10px 0px;
+    background: linear-gradient(to right,rgb(129, 115, 121),rgb(153, 128, 139));
+}
+
+#header button{
+    float: right;
+}
+
+
+#mid .bi-pencil{
+    font-size: 35px;
+
+}
+
+
+
+
+
+#footer{
+    padding: 10px 0px;
+    background: linear-gradient(to right,rgb(129, 115, 121),rgb(153, 128, 139));
+
+}
+#footer h5{
+     text-align: center;
+     color: aliceblue;
+}
